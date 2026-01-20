@@ -63,7 +63,7 @@ This project is designed to be **explainable, modular, and easily extendable** w
 4. **Rule Engine**  
    `rule_engine.py` loads rules dynamically and executes them against input text, returning structured results.
 
----
+'''text
 Rule-Based-Logical-Mapping/
 │
 ├── README.md
@@ -92,7 +92,7 @@ Rule-Based-Logical-Mapping/
 └── docs/
     └── design_decisions.md
 
-
+'''
 ## 🛠 Installation
 
 **Clone the repo:**
@@ -100,6 +100,7 @@ Rule-Based-Logical-Mapping/
 ```bash
 git clone https://github.com/jaskiratkalra26/Rule-Based-Logical-Mapping.git
 cd Rule-Based-Logical-Mapping
+
 
 
 
