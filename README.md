@@ -46,5 +46,19 @@ This project is designed to be **explainable, modular, and easily extendable** w
 
 ---
 
-## 🏗 Architecture & Flow
+## 📦 Project Structure
+
+Rule-Based-Logical-Mapping/
+├── README.md
+├── rules/
+│ ├── textual_rules.md # Human-readable rules
+│ ├── rule_metadata.py # Rule definitions + metadata
+│ ├── rule_functions.py # Logic implementations
+│ └── rule_engine.py # Engine that applies rules
+├── examples/
+│ └── demo.py # Demo usage
+├── tests/
+│ └── test_rules.py # Unit tests
+└── requirements.txt # Dependencies
+
 
