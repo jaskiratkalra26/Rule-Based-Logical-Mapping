@@ -63,36 +63,6 @@ This project is designed to be **explainable, modular, and easily extendable** w
 4. **Rule Engine**  
    `rule_engine.py` loads rules dynamically and executes them against input text, returning structured results.
 
-'''text
-Rule-Based-Logical-Mapping/
-│
-├── README.md
-│
-├── requirements.txt
-│
-├── rules/
-│   ├── __init__.py
-│   │
-│   ├── textual_rules.md
-│   │
-│   ├── rule_metadata.py
-│   │
-│   ├── rule_functions.py
-│   │
-│   └── rule_engine.py
-│
-├── examples/
-│   ├── __init__.py
-│   └── demo.py
-│
-├── tests/
-│   ├── __init__.py
-│   └── test_rules.py
-│
-└── docs/
-    └── design_decisions.md
-
-'''
 ## 🛠 Installation
 
 **Clone the repo:**
@@ -100,6 +70,7 @@ Rule-Based-Logical-Mapping/
 ```bash
 git clone https://github.com/jaskiratkalra26/Rule-Based-Logical-Mapping.git
 cd Rule-Based-Logical-Mapping
+
 
 
 
