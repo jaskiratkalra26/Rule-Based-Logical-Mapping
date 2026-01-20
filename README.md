@@ -46,19 +46,33 @@ This project is designed to be **explainable, modular, and easily extendable** w
 
 ---
 
-## 📦 Project Structure
 
-Rule-Based-Logical-Mapping/
-├── README.md
-├── rules/
-│ ├── textual_rules.md # Human-readable rules
-│ ├── rule_metadata.py # Rule definitions + metadata
-│ ├── rule_functions.py # Logic implementations
-│ └── rule_engine.py # Engine that applies rules
-├── examples/
-│ └── demo.py # Demo usage
-├── tests/
-│ └── test_rules.py # Unit tests
-└── requirements.txt # Dependencies
+---
+
+## 🧠 How It Works
+
+1. **Rule Definitions**  
+   Each rule is defined with clear textual explanations in `textual_rules.md`.
+
+2. **Logical Functions**  
+   Deterministic Python functions implement each rule in `rule_functions.py`.
+
+3. **Metadata Binding**  
+   `rule_metadata.py` ties rule IDs, descriptions, categories, and function names for traceability.
+
+4. **Rule Engine**  
+   `rule_engine.py` loads rules dynamically and executes them against input text, returning structured results.
+
+---
+
+## 🛠 Installation
+
+**Clone the repo:**
+
+```bash
+git clone https://github.com/jaskiratkalra26/Rule-Based-Logical-Mapping.git
+cd Rule-Based-Logical-Mapping
+
+
 
 
